@@ -1,6 +1,6 @@
 
 ## WSL2 Install
-open Windows PowerShell as administrator
+open Windows PowerShell (right click - "Run as administrator")
 
 `wsl --install`  - it will install latest wsl2 Ubuntu version.
 
@@ -50,7 +50,8 @@ At least add there :
 ## Install on Windows
 
 Visual Studio Code https://code.visualstudio.com/download
-NoMachine https://www.nomachine.com/
+
+for SDCC :  NoMachine https://www.nomachine.com/
 
 
 ### VS code extensions (inside WSL2):
