@@ -46,6 +46,27 @@ At least add there :
 ` source ~/install/root/bin/thisroot.sh`
 
 
+## Python
+Miniconda install here :
+https://educe-ubc.github.io/conda.html
+
+
+``` bash
+conda activate
+conda config --set channel_priority strict
+conda create -c conda-forge --name tf root
+conda activate tf
+pip install --upgrade pip
+python3 -m pip install tensorflow==2.12
+conda install -c conda-forge cudatoolkit=11.2.2
+pip install cudnn==8.9.4
+conda update --force conda
+
+conda install -c conda-forge uproot
+pip install --user root_numpy
+pip install --upgrade matplotlib
+
+```
 
 ## Install on Windows
 
