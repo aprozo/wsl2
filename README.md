@@ -62,11 +62,16 @@ conda install -c conda-forge cudatoolkit=11.2.2
 pip install cudnn==8.9.4
 conda update --force conda
 
+conda install -c anaconda pandas
 conda install -c conda-forge uproot
 pip install --user root_numpy
 pip install --upgrade matplotlib
-
+#pip3 install energyflow
 ```
+
+
+
+
 
 ## Install on Windows
 
