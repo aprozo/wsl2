@@ -69,6 +69,10 @@ pip install --upgrade matplotlib
 #pip3 install energyflow
 ```
 
+Or better install from atttached environmental list 
+```bash 
+conda create --name tf --file condaEnv.list
+````
 
 Verify tensorflow installation :
 
