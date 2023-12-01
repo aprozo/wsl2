@@ -52,6 +52,7 @@ https://educe-ubc.github.io/conda.html
 
 
 ``` bash
+conda update conda
 conda activate
 conda config --set channel_priority strict
 conda create -c conda-forge --name tf root
